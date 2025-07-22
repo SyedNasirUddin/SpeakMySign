@@ -4,12 +4,12 @@ Speak My Sign is a real-time American Sign Language (ASL) to speech conversion s
 to interpret hand gestures and convert them into spoken words. This project captures ASL letter signs, trains a classification model,
 and provides an interactive interface for sign-to-speech conversion.
 # Key Features
-.Real-time ASL Recognition: Uses MediaPipe for hand tracking and landmark detection
-.Machine Learning Model: Random Forest classifier trained on custom-collected ASL dataset
+.Real-time ASL Recognition: Uses MediaPipe for hand tracking and landmark detection.
+.Machine Learning Model: Random Forest classifier trained on custom-collected ASL dataset.
 .Interactive Interface:
 Press keys A-Z to collect training data for each letter
 Spacebar to confirm predictions
-Enter to speak the recognized letters
+Enter to speak the recognized letters.
 .Text-to-Speech: Integrated pyttsx3 for voice output of recognized signs
 # Technical Details
 Data Collection: Captures 100 samples per ASL letter (A-Z, excluding J)
