@@ -37,7 +37,7 @@ signtospeeches.ipynb: Main Jupyter notebook with all code
 new_asl_dataset.csv: Collected ASL landmark data
 new_asl_model.pkl: Trained Random Forest model
 # Performance Metrics
-          Metric	Precision	Recall	F1-Score	Support
+  Metric	Precision	Recall	F1-Score	Support
 1. Accuracy	                  –	             -            0.90	2999
 2. Macro Avg	                  0.89	  0.90	      0.89	2999
 3. Weighted Avg	                  0.90	  0.90	      0.90	2999
